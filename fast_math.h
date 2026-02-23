@@ -2,8 +2,8 @@
 * C - version of fast math by ncruces
 * https://github.com/ncruces/fastmath/blob/main/fast.go
 */
-#ifndef __FAST_MATH
-#define __FAST_MATH
+#ifndef __FAST_MATH_H
+#define __FAST_MATH_H
 #include <stdint.h>
 
 /**
@@ -175,4 +175,4 @@ float fast_pow10(float x) {
     i = i + 0x3f800000;
     return *(float*)&i;
 }
-#endif // __FAST_MATH
+#endif // __FAST_MATH_H
